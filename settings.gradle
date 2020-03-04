@@ -1,2 +1,3 @@
 rootProject.name='DashboardRoot'
-include ':app'
+include ':app', ':featuremodule12'
+project(':featuremodule12').projectDir = new File(settingsDir, '../../DashBoardModule1/featuremodule12')
